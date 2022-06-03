@@ -12,7 +12,7 @@ func GenerateModuleTemplate(data utils.Data) string {
 		modulebase "{{.ModInit}}/src/app/module"
 		"{{.ModInit}}/src/modules/{{.ModuleName}}/endpoint"
 		"{{.ModInit}}/src/modules/{{.ModuleName}}/repository"
-		transporthttp "{{.ModInit}}/src/modules/{{.ModuleName}}/transport/http"
+		transporthttp "{{.ModInit}}/src/modules/{{.ModuleName}}/transport/http/handler"
 		"{{.ModInit}}/src/modules/{{.ModuleName}}/usecase"
 		"github.com/go-chi/chi"
 	)
