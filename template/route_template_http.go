@@ -6,6 +6,7 @@ func GenerateRouteTemplate(data utils.Data) string {
 	var template = `package http
 
 	import (
+		"fmt"
 		"{{.ModInit}}/src/app"
 		"{{.ModInit}}/src/modules/{{.ModuleName}}/endpoint"
 		"{{.ModInit}}/src/modules/{{.ModuleName}}/transport/http/handler"
