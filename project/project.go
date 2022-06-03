@@ -38,6 +38,8 @@ func Create(moduleName string) error {
 	utils.CreateFile(os.Getenv("ROOT_DIR")+moduleName+"/endpoint/endpoint.go", []byte(template.GenerateEndpointTemplate(data)))
 	// create Transport
 	utils.CreateFile(os.Getenv("ROOT_DIR")+moduleName+"/transport/http/handler/handler.go", []byte(template.GenerateTransportTemplate(data)))
+	// create router
+	utils.CreateFile(os.Getenv("ROOT_DIR")+moduleName+"/transport/http/router.go", []byte(template.GenerateRouteTemplate(data)))
 
 	fmt.Println("module created success")
 	return nil

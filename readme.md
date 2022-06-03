@@ -1,4 +1,4 @@
-### create module in faspass
+### Create module in fazpass
 
 ### how to install
 - go get github.com/aryadiahmad4689/create-module@v1.0.2
