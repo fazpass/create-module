@@ -28,7 +28,6 @@ func Create(moduleName string) error {
 		ModuleName: moduleName,
 		ModInit:    os.Getenv("MODULE_INIT"),
 	}
-	fmt.Println(data, os.Getenv("MODULE_INIT"), os.Getenv("ROOT_DIR"))
 	// create module
 	utils.CreateFile(os.Getenv("ROOT_DIR")+moduleName+"/module.go", []byte(template.GenerateModuleTemplate(data)))
 	// create Repository
@@ -39,5 +38,7 @@ func Create(moduleName string) error {
 	utils.CreateFile(os.Getenv("ROOT_DIR")+moduleName+"/endpoint/endpoint.go", []byte(template.GenerateEndpointTemplate(data)))
 	// create Transport
 	utils.CreateFile(os.Getenv("ROOT_DIR")+moduleName+"/transport/http/handler/handler.go", []byte(template.GenerateTransportTemplate(data)))
+
+	fmt.Println("module created success")
 	return nil
 }
