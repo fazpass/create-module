@@ -11,16 +11,15 @@ func GenerateRouteTemplate(data utils.Data) string {
 		"{{.ModInit}}/src/modules/{{.ModuleName}}/transport/http/handler"
 		"github.com/go-chi/chi"
 	
-		"github.com/newrelic/go-agent/v3/newrelic"
 	)
 	
 	func Init(app *app.App, endpoint endpoint.EndpointInterface) *chi.Mux {
 		var (
 			router      = chi.NewRouter()
 			h           = handler.InitHandler(app, endpoint)
-			newrelicApp = app.GetNewrelicApp()
 		)
-	
+		
+		fmt.Print(h)
 	
 		return router
 	}

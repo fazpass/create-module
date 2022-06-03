@@ -15,7 +15,7 @@ func GenerateTransportTemplate(data utils.Data) string {
 		endpoint endpoint.EndpointInterface
 	}
 	
-	func Init(app *app.App, endpoint endpoint.EndpointInterface) *Handler {
+	func InitHandler(app *app.App, endpoint endpoint.EndpointInterface) *Handler {
 		var handler = &Handler{
 			app:      app,
 			endpoint: endpoint,
