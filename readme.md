@@ -1,7 +1,7 @@
 ### Create module in fazpass
 
 ### how to install
-- go get github.com/fazpass/create-module@v1.0.4
+- go get github.com/fazpass/create-module@v1.0.5
 
 ### env
 - must to have in .env MODULE_INIT, ROOT_DIR
