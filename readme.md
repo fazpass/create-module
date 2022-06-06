@@ -5,7 +5,7 @@
 
 ### env
 - must to have in .env MODULE_INIT, ROOT_DIR
-- MODULE_INIT=citcall.com/datz -> EXAMPLE
+- MODULE_INIT=citcall.com/datz -> example
 - ROOT_DIR=src/modules/ ->example
 
 ### how to use
