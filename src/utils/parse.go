@@ -4,9 +4,11 @@ import (
 	"bytes"
 	"html/template"
 	"log"
+
+	"github.com/aryadiahmad4689/create-module/src/data"
 )
 
-func Parse(name, tplt string, t Data) string {
+func Parse(name, tplt string, t data.Data) string {
 	tmpl, err := template.New(name).Parse(tplt)
 	if err != nil {
 		log.Fatal(err.Error())
