@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/aryadiahmad4689/create-module/src/data"
-	"github.com/aryadiahmad4689/create-module/src/main/generate"
-	"github.com/aryadiahmad4689/create-module/src/utils"
+	"github.com/fazpass/create-module/src/data"
+	"github.com/fazpass/create-module/src/main/generate"
+	"github.com/fazpass/create-module/src/utils"
 
 	_ "github.com/joho/godotenv/autoload"
 )

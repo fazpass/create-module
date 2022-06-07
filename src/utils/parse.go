@@ -5,7 +5,7 @@ import (
 	"html/template"
 	"log"
 
-	"github.com/aryadiahmad4689/create-module/src/data"
+	"github.com/fazpass/create-module/src/data"
 )
 
 func Parse(name, tplt string, t data.Data) string {

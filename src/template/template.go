@@ -1,8 +1,8 @@
 package template
 
 import (
-	"github.com/aryadiahmad4689/create-module/src/data"
-	"github.com/aryadiahmad4689/create-module/src/utils"
+	"github.com/fazpass/create-module/src/data"
+	"github.com/fazpass/create-module/src/utils"
 )
 
 type Template struct {
