@@ -1,9 +1,9 @@
 package generate
 
 import (
-	"github.com/aryadiahmad4689/create-module/src/data"
-	"github.com/aryadiahmad4689/create-module/src/template"
-	"github.com/aryadiahmad4689/create-module/src/utils"
+	"github.com/fazpass/create-module/src/data"
+	"github.com/fazpass/create-module/src/template"
+	"github.com/fazpass/create-module/src/utils"
 )
 
 type GenerateInterface interface {

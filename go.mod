@@ -1,4 +1,4 @@
-module github.com/aryadiahmad4689/create-module
+module github.com/fazpass/create-module
 
 go 1.17
 

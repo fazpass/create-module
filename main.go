@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/aryadiahmad4689/create-module/src/data"
-	mains "github.com/aryadiahmad4689/create-module/src/main"
+	"github.com/fazpass/create-module/src/data"
+	mains "github.com/fazpass/create-module/src/main"
 
 	"github.com/joho/godotenv"
 	_ "github.com/joho/godotenv/autoload"
