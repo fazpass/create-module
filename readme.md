@@ -1,7 +1,7 @@
 ### Create module in fazpass
 
 ### how to install
-- go get github.com/fazpass/create-module@v1.2.0
+- go get github.com/fazpass/create-module@v1.2.1
 
 ### env
 - jika tidak menggunakan flag bisa di simpan di .env
