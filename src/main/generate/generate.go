@@ -69,7 +69,7 @@ func (gen *Generate) Excute(da data.MainData) error {
 			ModuleName:    da.ModuleName,
 			FileName:      "router.go",
 			DirectoryFile: "/transport/http/router.go",
-			Template:      data.TemplateTransport,
+			Template:      data.TemplateRoute,
 			ModuleInit:    da.ModInit,
 			RootDir:       da.RootDir,
 		},

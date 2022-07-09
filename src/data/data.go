@@ -96,11 +96,11 @@ func Init(app *app.App, repo *repository.Repository) UseCaseInterface {
 
 	import (
 		"{{.ModInit}}/src/app"
-		modulebase "{{.ModInit}}/src/app/module"
 		"{{.ModInit}}/src/modules/{{.ModuleName}}/endpoint"
 		"{{.ModInit}}/src/modules/{{.ModuleName}}/repository"
 		transporthttp "{{.ModInit}}/src/modules/{{.ModuleName}}/transport/http"
 		"{{.ModInit}}/src/modules/{{.ModuleName}}/usecase"
+		modulebase "github.com/fazpass/goliath/module"
 		"github.com/go-chi/chi"
 	)
 
